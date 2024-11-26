@@ -14,6 +14,7 @@ A good model will help reduce the dependency on physically testing EVs and bring
 
 #### Research Question
 What are you trying to answer?
+
 Predicting EPA ranges of Electric cars based on features and data that impacts the range (battery size, drag coefficient, size of the car etc.)
 A good model will help reduce the dependency on physically testing EVs and bring the expected information closer to design time. So manufacturers can test and validate different features in the design phase compared to building prototypes and testing physically. 
 
@@ -24,10 +25,12 @@ Remainder of the information can be obtained through each manufacturers press re
 
 #### Methodology
 What methods are you using to answer the question?
+
 I had originally thought of using Logistic Regression, KNN Classifierer, DecisionTree Classifier and SVM but those are all classifiers so had to pivot to using models that work with range of numbers like Linear Regression, SVR, Decision Tree Regressor, KNN Regressor. 
 
 #### Results
 What did your research find?
+
 Based on the tested models Decision Tree Regressor seems to yield the best results. Using GridSearchCV the best hyperparameters are n_neighbors=  3, p = 1, weights = distance. Using the hyperparameters we can predict the EPA ranges of EVs with the provided features.
 
 #### Next steps

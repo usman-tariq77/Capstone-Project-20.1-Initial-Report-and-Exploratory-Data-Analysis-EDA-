@@ -34,7 +34,7 @@ What suggestions do you have for next steps?
 
 #### Outline of project
 
-- [Link to notebook 1]()
+- [Link to notebook 1](https://github.com/usman-tariq77/Capstone-Project-20.1-Initial-Report-and-Exploratory-Data-Analysis-EDA-/blob/main/EV.ipynb)
 - [Link to notebook 2]()
 - [Link to notebook 3]()
 
